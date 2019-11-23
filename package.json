@@ -1,0 +1,25 @@
+{
+  "name": "nucampsite",
+  "version": "1.0.0",
+  "description": "This is a website for the fictional campsites review website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "cats": "npm run lite"
+  },
+  "keywords": [],
+  "author": "Brandon Veth",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "onchange": "^3.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
