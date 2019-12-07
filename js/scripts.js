@@ -19,4 +19,6 @@ $(function () {
   $("#loginButton").click(function () {
     $("#loginModal").modal("show");
   });
+
+  $("p").click((this) => { this.addClass("selected") })
 });
