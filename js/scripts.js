@@ -1,5 +1,6 @@
 $(function () {
   $(".carousel").carousel({ interval: 2000 });
+
   $("#carouselButton").click(function () {
     if ($("#carouselButton").children("i").hasClass("fa-pause")) {
       $(".carousel").carousel("pause");
@@ -19,4 +20,6 @@ $(function () {
   $("#loginButton").click(function () {
     $("#loginModal").modal("show");
   });
+
+
 });

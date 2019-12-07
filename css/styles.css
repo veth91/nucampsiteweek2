@@ -46,3 +46,6 @@ header h2 {
 #loginModal .modal-header {
   background-color: #901CAD;
   color: white; }
+
+.selected {
+  color: red; }

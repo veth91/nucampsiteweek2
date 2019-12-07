@@ -10,7 +10,7 @@ $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
 
 body {
-    font-family: $body-font;
+    font-family: $body-font; 
 }
 
 h1, h2, h3 {
@@ -75,4 +75,7 @@ header {
         background-color: $color-mid;
         color: white;
     }
+}
+.selected {
+    color: red;
 }
